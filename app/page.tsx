@@ -1,4 +1,5 @@
 import HeroSection from "./components/HeroSection";
+import MonkScrollSection from "./components/MonkScrollSection";
 import ScrollRevealSection from "./components/ScrollRevealSection";
 import TeamSection from "./components/TeamSection";
 import ProjectsSection from "./components/ProjectsSection";
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <main className="bg-background min-h-screen text-foreground relative">
       <HeroSection />
+      <MonkScrollSection />
       <ScrollRevealSection />
 
       {/* Spacer or gentle gradient transition */}
