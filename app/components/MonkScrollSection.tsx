@@ -254,77 +254,73 @@ export default function MonkScrollSection() {
             {/* Pinned container */}
             <div
                 ref={pinnedRef}
-                className="h-screen w-full overflow-hidden"
+                className="h-screen w-full overflow-hidden relative"
                 style={{
-                    background:
-                        "linear-gradient(to bottom, #76ADD2 0%, #76ADD2 30%, #99A1A6 100%)",
+                    backgroundImage: "url('/Monkbackground.png')",
+                    backgroundSize: "100% 100%", // Stretch to fill full width and height
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundColor: "rgb(103, 173, 216)", // Fallback color that roughly matches
                 }}
             >
-                {/* Two-column grid */}
-                <div className="h-full grid grid-cols-1 md:grid-cols-2">
-                    {/* Left: Canvas */}
-                    <div className="relative flex items-center justify-center h-full">
-                        <canvas
-                            ref={canvasRef}
-                            className="max-h-screen w-auto object-contain"
-                            style={{
-                                maxWidth: "100%",
-                                height: "100vh",
-                            }}
-                        />
+                {/* Background Canvas: uses object-contain so monk is fully visible */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                    <canvas
+                        ref={canvasRef}
+                        className="w-full h-full object-contain"
+                    />
+                </div>
+
+                {/* Overlays / Text blocks */}
+                <div className="absolute inset-0 pointer-events-none">
+                    {/* Text 1: Bottom Center */}
+                    <div
+                        ref={text1Ref}
+                        className="absolute bottom-16 left-1/2 -translate-x-1/2 flex flex-col items-center justify-center px-4 w-full text-center"
+                    >
+                        <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight drop-shadow-md">
+                            The Lazy
+                            <br />
+                            <span className="text-amber-200">Monk</span>
+                        </h2>
+                        <p className="text-white/90 text-lg md:text-xl max-w-md text-center leading-relaxed drop-shadow">
+                            In stillness, the journey begins. A single breath before the
+                            storm of creation.
+                        </p>
                     </div>
 
-                    {/* Right: Text blocks */}
-                    <div className="relative flex items-center justify-center h-full">
-                        {/* Text 1 */}
-                        <div
-                            ref={text1Ref}
-                            className="absolute inset-0 flex flex-col items-center justify-center px-8 md:px-16"
-                        >
-                            <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight">
-                                The Lazy
-                                <br />
-                                <span className="text-amber-200">Monk</span>
-                            </h2>
-                            <p className="text-white/70 text-lg md:text-xl max-w-md text-center leading-relaxed">
-                                In stillness, the journey begins. A single breath before the
-                                storm of creation.
-                            </p>
-                        </div>
+                    {/* Text 2: Left Side */}
+                    <div
+                        ref={text2Ref}
+                        className="absolute top-1/2 left-8 md:left-24 -translate-y-1/2 flex flex-col items-start justify-center px-4 w-[90%] md:w-1/2 lg:w-1/3 text-left"
+                        style={{ opacity: 0 }}
+                    >
+                        <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight drop-shadow-md">
+                            Awakening
+                            <br />
+                            <span className="text-cyan-200">to the Code</span>
+                        </h2>
+                        <p className="text-white/90 text-lg md:text-xl max-w-md text-left leading-relaxed drop-shadow">
+                            Eyes open. Fingers type. The monk transforms idle thought into
+                            electric purpose.
+                        </p>
+                    </div>
 
-                        {/* Text 2 */}
-                        <div
-                            ref={text2Ref}
-                            className="absolute inset-0 flex flex-col items-center justify-center px-8 md:px-16"
-                            style={{ opacity: 0 }}
-                        >
-                            <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight">
-                                Awakening
-                                <br />
-                                <span className="text-cyan-200">to the Code</span>
-                            </h2>
-                            <p className="text-white/70 text-lg md:text-xl max-w-md text-center leading-relaxed">
-                                Eyes open. Fingers type. The monk transforms idle thought into
-                                electric purpose.
-                            </p>
-                        </div>
-
-                        {/* Text 3 */}
-                        <div
-                            ref={text3Ref}
-                            className="absolute inset-0 flex flex-col items-center justify-center px-8 md:px-16"
-                            style={{ opacity: 0 }}
-                        >
-                            <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight">
-                                Flow
-                                <br />
-                                <span className="text-emerald-200">State</span>
-                            </h2>
-                            <p className="text-white/70 text-lg md:text-xl max-w-md text-center leading-relaxed">
-                                Time dissolves. Code flows like water. The monk and the machine
-                                become one.
-                            </p>
-                        </div>
+                    {/* Text 3: Right Side */}
+                    <div
+                        ref={text3Ref}
+                        className="absolute top-1/2 right-8 md:right-24 -translate-y-1/2 flex flex-col items-end justify-center px-4 w-[90%] md:w-1/2 lg:w-1/3 text-right"
+                        style={{ opacity: 0 }}
+                    >
+                        <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight drop-shadow-md">
+                            Flow
+                            <br />
+                            <span className="text-emerald-200">State</span>
+                        </h2>
+                        <p className="text-white/90 text-lg md:text-xl max-w-md text-right leading-relaxed drop-shadow">
+                            Time dissolves. Code flows like water. The monk and the machine
+                            become one.
+                        </p>
                     </div>
                 </div>
             </div>
