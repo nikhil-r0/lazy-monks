@@ -138,7 +138,7 @@ export default function ParticlesBackground() {
                 className="fixed inset-0 z-[-1] bg-background"
             />
             <Script
-                src="/particles.js-master/particles.min.js"
+                src="/particles.js-master/particles.js"
                 strategy="afterInteractive"
                 onLoad={() => {
                     scriptLoadedRef.current = true;

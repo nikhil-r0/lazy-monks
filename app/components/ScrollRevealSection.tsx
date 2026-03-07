@@ -22,7 +22,7 @@ export default function ScrollRevealSection() {
                 className="max-w-6xl mx-auto px-4"
             >
                 <div className="glass rounded-3xl p-8 md:p-16 relative overflow-hidden text-center border-t border-purple-500/30 shadow-[0_0_50px_rgba(139,92,246,0.1)]">
-                    <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-transparent opacity-50" />
+                    <div className="absolute inset-0 opacity-50" />
 
                     <h2 className="text-3xl md:text-5xl font-bold mb-6 relative z-10">
                         Hackathon Veterans.

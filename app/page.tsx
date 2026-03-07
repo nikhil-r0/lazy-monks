@@ -12,9 +12,6 @@ export default function Home() {
       <MonkScrollSection />
       <ScrollRevealSection />
 
-      {/* Spacer or gentle gradient transition */}
-      <div className="h-24 bg-gradient-to-b from-transparent to-[#050505]/50" />
-
       <TeamSection />
 
       {/* Spacer */}

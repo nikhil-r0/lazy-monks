@@ -6,12 +6,11 @@ export const teamMembers = [
         name: "Nikhil R",
         role: "Full Stack Developer",
         bio: "Passionate about creating scalable web applications and intuitive interfaces.",
-        image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200&h=200",
+        image: "/Nikhil.jpeg",
         skills: ["React", "Next.js", "Node.js", "TypeScript"],
         socials: {
             github: "https://github.com/nikhil-r0",
             linkedin: "https://linkedin.com",
-            portfolio: "https://example.com"
         }
     },
     {
@@ -19,7 +18,7 @@ export const teamMembers = [
         name: "Aryan Mishra",
         role: "UI/UX & Frontend Engineer",
         bio: "Crafting beautiful, user-centric experiences with a keen eye for interactive design.",
-        image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200",
+        image: "/Aryan.jpeg",
         skills: ["Figma", "Tailwind CSS", "Framer Motion", "Vue"],
         socials: {
             github: "https://github.com/AZREAL-08",
@@ -35,8 +34,8 @@ export const teamMembers = [
         image: "/Vade.jpeg",
         skills: ["Python", "PostgreSQL", "Docker", "AWS"],
         socials: {
-            github: "https://github.com",
-            linkedin: "https://linkedin.com",
+            github: "https://github.com/vanguard-bit",
+            linkedin: "https://www.linkedin.com/in/prajwal-s-061b82334/",
         }
     },
     {
@@ -49,7 +48,6 @@ export const teamMembers = [
         socials: {
             github: "https://github.com/Nish344",
             linkedin: "https://www.linkedin.com/in/nishanth-antony-b60110289/",
-            portfolio: "https://example.com"
         }
     }
 ];
@@ -58,7 +56,7 @@ export const hackathonProjects = [
     {
         id: "proj-1",
         title: "Samudra Prahari",
-        hackathon: "Global Hack Week 2025",
+        hackathon: "SIH 2025",
         description: "A decentralized offline chat application built with React Native (Expo) that enables peer-to-peer messaging without internet using Bluetooth Low Energy (BLE) mesh networking. It allows nearby devices to discover each other and communicate through public or encrypted private channels, making it useful for remote, emergency, or off-grid communication.",
         image: "/Samudra.png",
         techStack: [
@@ -68,7 +66,7 @@ export const hackathonProjects = [
             "React webpage"
         ],
         links: {
-            github: "https://github.com",
+            github: "https://github.com/nikhil-r0/samudra-prahari-ecosystem",
             demo: "https://example.com",
         }
     },
@@ -85,7 +83,7 @@ export const hackathonProjects = [
             "Next.js"
         ],
         links: {
-            github: "https://github.com",
+            github: "https://github.com/nikhil-r0/veris-ecosystem",
             demo: "https://example.com",
         }
     },

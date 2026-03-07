@@ -20,7 +20,7 @@ export default function HeroSection() {
                 >
                     <div className="glass px-4 py-2 rounded-full flex items-center gap-2 text-sm font-medium">
                         <Terminal className="w-4 h-4 text-orange-500" />
-                        <span>Hackathon Winners & Builders</span>
+                        <span>Hackathon Builders</span>
                     </div>
                 </motion.div>
 

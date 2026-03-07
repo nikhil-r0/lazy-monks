@@ -48,7 +48,7 @@ export default function TeamSection() {
                         className="glass rounded-2xl overflow-hidden group border border-orange-500/10 hover:border-orange-500/30 transition-colors"
                     >
                         <div className="h-48 overflow-hidden relative">
-                            <div className="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent z-10" />
+                            <div className="absolute inset-0 z-10" />
                             {/* Using regular img tag. In a real Next.js app, replace with next/image */}
                             <img
                                 src={member.image}
