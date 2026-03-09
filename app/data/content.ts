@@ -93,13 +93,13 @@ export const teamMembers: TeamMember[] = [
       linkedin: "https://www.linkedin.com/in/prajwal-s-061b82334/",
     }
   },
-  {
+    {
     id: 4,
-    name: "Nishanth Anthony",
-    role: "Machine Learning Engineer",
-    bio: "Integrating AI models into practical applications to solve real-world problems.",
+    name: "Nishanth Antony",
+    role: "AI & Machine Learning Engineer",
+    bio: "Designing and integrating AI systems into real-world applications, with a focus on intelligent agents, machine learning workflows, and practical problem solving.",
     image: "/Nishanth.jpeg",
-    skills: ["PyTorch", "TensorFlow", "FastAPI", "OpenAI"],
+    skills: ["Python", "PyTorch", "TensorFlow", "FastAPI", "LangGraph", "LLM Integration"],
     socials: {
       github: "https://github.com/Nish344",
       linkedin: "https://www.linkedin.com/in/nishanth-antony-b60110289/",
@@ -269,6 +269,12 @@ This autonomous looping means the agent can go down rabbit holes, hit dead ends,
         roleInProject: "Backend & Data Engineer",
         toolsUsed: ["Python", "FastAPI", "PostgreSQL", "Redis"],
         summary: "Built and hardened the evidence ingestion APIs, implemented scalable storage and caching for large evidence sets, and integrated backend connectors to external data sources used by the LangGraph agent."
+      },
+      {
+        memberId: 4, // Nishanth Antony
+        roleInProject: "AI Architect & AI Engineer",
+        toolsUsed: ["Python", "LangGraph", "LLM Orchestration"],
+        summary: "Designed and implemented the AI architecture for the Veris investigative agent, including the reasoning workflow, agent state design, and integration of verification and iterative investigation loops."
       }
     ],
     links: {
@@ -330,6 +336,12 @@ To keep users engaged, we introduced a dynamic quest system:
         roleInProject: "Backend Engineer & DevOps",
         toolsUsed: ["Flask", "PostgreSQL", "AWS", "Docker"],
         summary: "Implemented the quest engine backend, built the media ingestion and verification upload pipeline, and created CI/CD deployment scripts to keep the service reliable at scale."
+      },
+      {
+        memberId: 4, // Nishanth Antony
+        roleInProject: "AI Engineer & ML Architect",
+        toolsUsed: ["Python", "Machine Learning", "Computer Vision"],
+        summary: "Designed and implemented the AI components used for plant recognition and task verification, including the ML pipeline for analyzing user-submitted media and assessing plant health and quest completion."
       }
     ],
     links: {
@@ -402,6 +414,12 @@ We engineered a platform that bridges the trust gap between citizens and the gov
         roleInProject: "Backend & Geospatial Engineer",
         toolsUsed: ["PostGIS", "Python", "Firebase", "Docker"],
         summary: "Built spatial clustering and ward-routing logic using PostGIS, optimized duplicate-detection heuristics, and implemented backend endpoints for municipal routing and analytics."
+      },
+      {
+        memberId: 4, // Nishanth Antony
+        roleInProject: "AI Architect & AI Engineer",
+        toolsUsed: ["Python", "LangGraph", "Gemini 2.5 Flash"],
+        summary: "Designed and implemented the AI-driven verification pipeline for civic issue reporting, including multimodal analysis of images, descriptions, and geolocation data to validate complaints and assist automated issue classification."
       }
     ],
     links: {
@@ -467,6 +485,12 @@ GameNest solves the isolation of indie development by offering a 2D open-world p
         roleInProject: "Server & Real-time Systems Engineer",
         toolsUsed: ["WebSockets", "Node.js", "TypeScript", "Docker"],
         summary: "Implemented the real-time multiplayer backend, optimized WebSocket scaling and state-sync, and implemented secure GameCoin transaction endpoints and server deployment pipelines."
+      },
+      {
+        memberId: 4, // Nishanth Antony
+        roleInProject: "AI Integration Support",
+        toolsUsed: ["AI Tools"],
+        summary: "Assisted the team in experimenting with AI tools and exploring ways to enhance gameplay interaction and developer discovery within the platform."
       }
     ],
     links: {
@@ -577,8 +601,8 @@ Built for the **She Builds AI** hackathon, **HerHealth** was created to tackle t
       {
         memberId: 4, // Nishanth
         roleInProject: "AI Integrator",
-        toolsUsed: ["Google Gemini API"],
-        summary: "Engineered the prompts and integrated the Gemini API to create the empathetic, medically accurate health chatbot."
+        toolsUsed: ["Google Gemini API", "Prompt Engineering"],
+        summary: "Designed and implemented the AI-powered health assistant by integrating the Google Gemini API. Engineered structured prompts and response flows to create an empathetic chatbot capable of guiding users through symptom tracking, providing medically relevant information, and offering supportive conversational interactions tailored for rural healthcare contexts."
       },
       {
         memberId: 3, // Prajwal S
@@ -693,6 +717,12 @@ Built for the **Amazon Sambhav 2024** hackathon, **ExportEase** was designed to 
         roleInProject: "Backend & API Integrator",
         toolsUsed: ["Node.js", "Python", "Redis", "Postgres"],
         summary: "Designed the API gateway and caching layer for tariff lookups, implemented rate-limits and retries, and ensured consistent data normalization across disparate tariff sources."
+      },
+      {
+        memberId: 4, // Nishanth Antony
+        roleInProject: "AI Engineer & Systems Developer",
+        toolsUsed: ["Google Gemini API", "Prompt Engineering", "Python", "REST APIs"],
+        summary: "Designed and implemented the AI-powered guidance system that assists exporters through onboarding and compliance workflows. Built structured prompt pipelines using the Gemini API to generate contextual export guidance, interpret user inputs, and summarize regulatory requirements. Also contributed to integrating external trade data APIs and structuring AI responses to present actionable insights within the platform."
       }
     ],
     links: {
@@ -743,6 +773,12 @@ Built for the **BuzzOnEarth India Hackathon 2024** at IIT Kanpur, **Green Terrac
         roleInProject: "Mobile App Developer",
         toolsUsed: ["Flutter", "Dart", "UI/UX Design"],
         summary: "Built the cross-platform mobile app interface using Flutter, including the community pages and the marketplace placeholder."
+      },
+      {
+        memberId: 4, // Nishanth Antony
+        roleInProject: "AI Engineer & ML Developer",
+        toolsUsed: ["Python", "Machine Learning", "HuggingFace (BERT)", "Intel OpenVINO"],
+        summary: "Contributed to the design and implementation of the AI components powering the platform, including the BERT-based conversational assistant and ML-driven crop recommendation workflows. Worked on integrating model inference with the backend services, experimenting with plant data inputs, and structuring AI responses to provide practical guidance for terrace farmers."
       }
     ],
     links: {
