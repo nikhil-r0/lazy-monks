@@ -93,7 +93,7 @@ export const teamMembers: TeamMember[] = [
       linkedin: "https://www.linkedin.com/in/prajwal-s-061b82334/",
     }
   },
-    {
+  {
     id: 4,
     name: "Nishanth Antony",
     role: "AI & Machine Learning Engineer",
@@ -186,7 +186,7 @@ Throughout the development for SIH 2025, our team pushed the boundaries of what 
         memberId: 1, // Nikhil R
         roleInProject: "Lead Developer / Architect",
         toolsUsed: ["React Native", "Next.js", "Supabase"],
-        summary: "Architected the ecosystem, integrated BLE mesh networking, and built the core web dashboard."
+        summary: "Architected the full-stack ecosystem, engineered the BLE mesh networking layer for offline resilience, and developed the React Native mobile application with multilingual support and gamified engagement features."
       },
       {
         memberId: 2, // Aryan
@@ -256,7 +256,7 @@ This autonomous looping means the agent can go down rabbit holes, hit dead ends,
         memberId: 1, // Nikhil R
         roleInProject: "Full Stack Engineer",
         toolsUsed: ["Next.js", "Python", "LangGraph"],
-        summary: "Integrated the LangGraph backend with the Next.js frontend and designed the agent's iterative reasoning workflow."
+        summary: "Bridged the LangGraph-powered backend with the Next.js frontend, orchestrating real-time state synchronization and designing the agent's iterative reasoning and self-evaluation workflow."
       },
       {
         memberId: 2, // Aryan
@@ -313,23 +313,23 @@ To keep users engaged, we introduced a dynamic quest system:
     techStack: [
       "Python",
       "Flask",
+      "React Native (Expo)",
+      "OpenCV",
       "Machine Learning",
-      "Computer Vision",
-      "Geolocation APIs",
-      "Next.js"
+      "Geolocation APIs"
     ],
     contributions: [
       {
         memberId: 1, // Nikhil R
-        roleInProject: "Backend & ML Integrator",
-        toolsUsed: ["Python", "Flask", "Machine Learning"],
-        summary: "Developed the core Flask backend, structured the Quest Generation logic, and integrated the AI/ML verification services for plant health."
+        roleInProject: "Mobile App Developer",
+        toolsUsed: ["JavaScript", "React Native"],
+        summary: "Developed the React Native mobile application, implementing the camera-based photo and video capture pipeline, the AI-driven plant chatbot interface, and the gamified Eco-Leaderboard system."
       },
       {
         memberId: 2, // Aryan
-        roleInProject: "UI/UX & Frontend Developer",
-        toolsUsed: ["Next.js", "Figma", "Geolocation"],
-        summary: "Designed the interactive Maps feature, the Eco-Leaderboard, and the conversational UI for the plant chatbot."
+        roleInProject: "UI/UX Designer",
+        toolsUsed: ["Figma", "Geolocation"],
+        summary: "Designed the interactive map interface, the Eco-Leaderboard visuals, and the conversational UI layouts for the plant chatbot."
       },
       {
         memberId: 3, // Prajwal S
@@ -388,37 +388,30 @@ We engineered a platform that bridges the trust gap between citizens and the gov
       "homepage.png"
     ],
     techStack: [
-      "Next.js",
       "React Native",
       "Python",
       "Flask",
-      "LangGraph",
       "Gemini 2.5 Flash",
-      "Firebase"
+      "Firebase",
+      "HTML/CSS/JS"
     ],
     contributions: [
       {
         memberId: 1, // Nikhil R
-        roleInProject: "Team Leader & Backend Architect",
-        toolsUsed: ["Python", "Flask", "LangGraph", "Gemini 2.5"],
-        summary: "Architected the monorepo structure, developed the Flask API, and integrated Gemini with LangGraph for the AI-verified issue validation pipeline."
+        roleInProject: "Team Leader & Mobile Developer",
+        toolsUsed: ["React Native", "Firebase"],
+        summary: "Led the team and developed the React Native mobile application, integrating Firebase for real-time data persistence and connecting the app to the Flask backend API for AI-verified issue reporting."
       },
       {
         memberId: 2, // Aryan
-        roleInProject: "Frontend Developer",
-        toolsUsed: ["Next.js", "React Native", "Firebase"],
-        summary: "Developed the intuitive mobile and web interfaces, implemented the real-time map visualizations, and integrated regional language support."
-      },
-      {
-        memberId: 3, // Prajwal S
-        roleInProject: "Backend & Geospatial Engineer",
-        toolsUsed: ["PostGIS", "Python", "Firebase", "Docker"],
-        summary: "Built spatial clustering and ward-routing logic using PostGIS, optimized duplicate-detection heuristics, and implemented backend endpoints for municipal routing and analytics."
+        roleInProject: "Web Frontend Developer",
+        toolsUsed: ["HTML", "CSS", "JavaScript", "Firebase"],
+        summary: "Developed the web-based admin portal and map visualization dashboard using vanilla HTML/CSS/JS, implemented real-time issue tracking on interactive maps, and integrated regional language support."
       },
       {
         memberId: 4, // Nishanth Antony
         roleInProject: "AI Architect & AI Engineer",
-        toolsUsed: ["Python", "LangGraph", "Gemini 2.5 Flash"],
+        toolsUsed: ["Python", "Gemini 2.5 Flash"],
         summary: "Designed and implemented the AI-driven verification pipeline for civic issue reporting, including multimodal analysis of images, descriptions, and geolocation data to validate complaints and assist automated issue classification."
       }
     ],
@@ -465,14 +458,14 @@ GameNest solves the isolation of indie development by offering a 2D open-world p
       "Tiled Map Editor",
       "TypeScript",
       "WebSockets",
-      "AI Tools"
+      "AI-Assisted Development"
     ],
     contributions: [
       {
         memberId: 1, // Nikhil R
         roleInProject: "Game Logic & Backend Developer",
-        toolsUsed: ["Game Engine", "JavaScript"],
-        summary: "Worked on integrating the 2D tiled map, handling player movement, and establishing the GameCoin economy logic."
+        toolsUsed: ["Phaser", "TypeScript"],
+        summary: "Integrated the 2D tiled map system, engineered player movement and collision mechanics, and implemented the GameCoin economy logic for in-platform transactions."
       },
       {
         memberId: 2, // Aryan
@@ -489,8 +482,8 @@ GameNest solves the isolation of indie development by offering a 2D open-world p
       {
         memberId: 4, // Nishanth Antony
         roleInProject: "AI Integration Support",
-        toolsUsed: ["AI Tools"],
-        summary: "Assisted the team in experimenting with AI tools and exploring ways to enhance gameplay interaction and developer discovery within the platform."
+        toolsUsed: ["AI-Assisted Development"],
+        summary: "Assisted the team in leveraging AI-assisted development tools to accelerate game feature implementation and explore enhancements for gameplay interaction and developer discovery."
       }
     ],
     links: {
@@ -531,9 +524,9 @@ Built for the **Google Solutions Challenge 2025**, **ContractIQ** eliminates thi
     contributions: [
       {
         memberId: 1, // Nikhil R
-        roleInProject: "Backend Developer & System Architect",
+        roleInProject: "Full Stack Developer",
         toolsUsed: ["Python", "Flask", "Firebase", "SMTP"],
-        summary: "Architected the backend application, integrated the email scheduling system, and handled the Firebase database operations."
+        summary: "Managed Firebase database operations for contract storage and retrieval, built the web frontend for document upload and timeline visualization, and handled production deployment."
       },
       {
         memberId: 2, // Aryan
@@ -590,13 +583,13 @@ Built for the **She Builds AI** hackathon, **HerHealth** was created to tackle t
         memberId: 1, // Nikhil R
         roleInProject: "Mobile App & Backend Developer",
         toolsUsed: ["React Native", "Firebase"],
-        summary: "Developed the cross-platform mobile application, engineered the low-bandwidth caching strategies, and structured the secure Firebase database."
+        summary: "Developed the cross-platform React Native mobile application with low-bandwidth caching strategies for rural connectivity, and architected the secure Firebase database schema for patient records and donor transparency."
       },
       {
         memberId: 2, // Aryan
         roleInProject: "Frontend Developer",
-        toolsUsed: ["React Native", "JavaScript", "Next.js"],
-        summary: "Developed the web dashboard for healthcare centers and helped with the frontend architecture for the React Native mobile application."
+        toolsUsed: ["React Native", "JavaScript"],
+        summary: "Developed the web dashboard for healthcare centers and contributed to the frontend architecture of the React Native mobile application."
       },
       {
         memberId: 4, // Nishanth
@@ -648,19 +641,13 @@ Most online marketplaces today feel outdated—plagued by paywalls for listings,
         memberId: 1, // Nikhil R
         roleInProject: "Full Stack & Web3 Developer",
         toolsUsed: ["Next.js", "Solidity", "Supabase"],
-        summary: "Developed the smart contracts for the staking/slashing trust system on the Sepolia testnet and engineered the real-time chat backend."
+        summary: "Developed and deployed Solidity smart contracts for the staking/slashing trust system on the Sepolia testnet, and engineered the real-time chat backend using Supabase for instant buyer-seller communication."
       },
       {
         memberId: 2, // Aryan
         roleInProject: "UI/UX & Frontend Engineer",
         toolsUsed: ["Next.js", "Tailwind CSS"],
         summary: "Designed the clean, clutter-free marketplace interface and implemented the responsive frontend components."
-      },
-      {
-        memberId: 3, // Prajwal S
-        roleInProject: "Backend & Web3 Integration Engineer",
-        toolsUsed: ["Supabase", "Node.js", "Solidity", "Postgres"],
-        summary: "Built the trust-scoring backend, implemented staking/slashing integration hooks, hardened the chat backend and designed database schemas and indexing for production reliability."
       }
     ],
     links: {
@@ -693,29 +680,29 @@ Built for the **Amazon Sambhav 2024** hackathon, **ExportEase** was designed to 
       "summary.png"
     ],
     techStack: [
-      "React / Expo",
-      "Node.js / Python", // Update if a specific backend was used
+      "HTML/CSS/JS",
+      "Python",
+      "Flask",
       "Google Gemini API",
-      "US HTS API",
-      "RESTful APIs"
+      "US HTS API"
     ],
     contributions: [
       {
         memberId: 1, // Nikhil R
-        roleInProject: "Full Stack & AI Integrator",
-        toolsUsed: ["Gemini API", "US HTS API", "Backend Framework"],
-        summary: "Integrated the Gemini API for custom onboarding instructions, connected the US HTS API for real-time tariff fetching, and architected the overall backend data flow."
+        roleInProject: "Full Stack Developer & AI Integrator",
+        toolsUsed: ["Gemini API", "US HTS API", "Flask"],
+        summary: "Integrated the Gemini API for intelligent onboarding guidance, connected the US HTS API for real-time tariff data retrieval, and architected the Flask backend powering the platform's data flow."
       },
       {
         memberId: 2, // Aryan
         roleInProject: "Frontend Developer",
-        toolsUsed: ["Next.js", "Tailwind CSS", "UI Design"],
+        toolsUsed: ["HTML", "CSS", "JavaScript"],
         summary: "Developed the intuitive, unified dashboard and user interface for the global trade and compliance platform."
       },
       {
         memberId: 3, // Prajwal S
         roleInProject: "Backend & API Integrator",
-        toolsUsed: ["Node.js", "Python", "Redis", "Postgres"],
+        toolsUsed: ["Python", "Flask"],
         summary: "Designed the API gateway and caching layer for tariff lookups, implemented rate-limits and retries, and ensured consistent data normalization across disparate tariff sources."
       },
       {
@@ -764,15 +751,9 @@ Built for the **BuzzOnEarth India Hackathon 2024** at IIT Kanpur, **Green Terrac
     contributions: [
       {
         memberId: 1, // Nikhil R
-        roleInProject: "AI & Backend Engineer",
-        toolsUsed: ["Python", "Flask", "Intel OpenVINO", "HuggingFace"],
-        summary: "Developed the plant stage recognition model, optimized it using Intel OpenVINO, built the Flask backend, and integrated the BERT-uncased chatbot for personalized user support."
-      },
-      {
-        memberId: 3, // Prajwal S
-        roleInProject: "Mobile App Developer",
-        toolsUsed: ["Flutter", "Dart", "UI/UX Design"],
-        summary: "Built the cross-platform mobile app interface using Flutter, including the community pages and the marketplace placeholder."
+        roleInProject: "AI & Full Stack Engineer",
+        toolsUsed: ["Python", "Flask", "Intel OpenVINO", "HuggingFace", "Flutter", "Dart"],
+        summary: "Developed the plant stage recognition model and optimized inference using Intel OpenVINO, built the Flask backend API, and developed the Flutter mobile application for end-to-end user interaction."
       },
       {
         memberId: 4, // Nishanth Antony
