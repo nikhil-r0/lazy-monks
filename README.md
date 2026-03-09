@@ -59,7 +59,7 @@ npm start
 
 ## 🤝 Contributing as a Guest Member
 
-We welcome contributions! If you've worked with us on a project (or just want to be part of the crew), you can get yourself featured on our site as a **Guest Contributor**.
+We welcome contributions! If you've worked with us on a project, you can get yourself featured on our site as a **Guest Contributor**.
 
 ### How to Contribute
 
