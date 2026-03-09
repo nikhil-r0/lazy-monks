@@ -43,7 +43,6 @@ const stats = [
     { label: "Hackathons Competed", value: 10, suffix: "+", description: "National & international events" },
     { label: "Projects Shipped", value: 10, suffix: "", description: "Built, deployed & demoed" },
     { label: "Sleepless Nights", value: 30, suffix: "+", description: "Fueled by caffeine & ambition" },
-    { label: "Wins", value: 0, suffix: "", description: "Not giving up yet!" },
 ];
 
 const containerVariants = {
@@ -98,7 +97,7 @@ export default function ScrollRevealSection() {
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true, margin: "-50px" }}
-                        className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 relative z-10"
+                        className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 relative z-10"
                     >
                         {stats.map((stat, i) => (
                             <motion.div
