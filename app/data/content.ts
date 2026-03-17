@@ -400,6 +400,12 @@ To keep users engaged, we introduced a dynamic quest system:
         summary: "Designed the interactive map interface, the Eco-Leaderboard visuals, and the conversational UI layouts for the plant chatbot."
       },
       {
+        memberId: 3,
+        roleInProject: "Backend Engineer & Computer Vision Developer",
+        toolsUsed: ["Flask", "PostgreSQL", "AWS", "Docker", "OpenCV", "Python"],
+        summary: "Developed the backend media verification pipeline, detecting fraudulent submissions (photo-of-photo) and processing short plant video sweeps to assist in 3D validation of real-world plants."
+      },
+      {
         memberId: 4, // Nishanth Antony
         roleInProject: "AI Engineer & ML Architect",
         toolsUsed: ["Python", "Machine Learning", "Computer Vision"],
@@ -600,6 +606,12 @@ Built for the **Google Solutions Challenge 2025**, **ContractIQ** eliminates thi
         summary: "Developed a clean, server-rendered dashboard interface offering a straightforward way for users to upload documents and view active contract timelines."
       },
       {
+        memberId: 3,
+        roleInProject: "Backend Engineer",
+        toolsUsed: ["Python", "Flask"],
+        summary: "Built the backend API using Flask, implementing endpoints for user authentication, contract submission, and communication between the frontend and backend services."
+      },
+      {
         memberId: 4, // Nishanth
         roleInProject: "AI Integration Engineer",
         toolsUsed: ["Gemini API", "Python"],
@@ -650,6 +662,12 @@ Built for the **She Builds AI** hackathon, **HerHealth** was created to tackle t
         roleInProject: "Frontend Developer",
         toolsUsed: ["React Native", "JavaScript"],
         summary: "Developed the web dashboard for healthcare centers and contributed to the frontend architecture of the React Native mobile application."
+      },
+      {
+        memberId: 3,
+        roleInProject: "Backend Engineer",
+        toolsUsed: ["Python", "Flask"],
+        summary: "Developed the Flask-based backend server, implementing APIs to handle communication between the React Native application, Firebase services, and Gemini-powered AI features."
       },
       {
         memberId: 4, // Nishanth
@@ -754,6 +772,12 @@ Built for the **Amazon Sambhav 2024** hackathon, **ExportEase** was designed to 
         roleInProject: "Frontend Developer",
         toolsUsed: ["HTML", "CSS", "JavaScript"],
         summary: "Developed the intuitive, unified dashboard and user interface for the global trade and compliance platform."
+      },
+      {
+        memberId: 3,
+        roleInProject: "Backend Research & Integration",
+        toolsUsed: ["REST APIs", "Python"],
+        summary: "Researched and identified APIs providing international trade regulation and tariff data for different countries, enabling the platform to retrieve and present relevant export compliance information."
       },
       {
         memberId: 4, // Nishanth Antony
